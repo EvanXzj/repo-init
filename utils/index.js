@@ -7,13 +7,14 @@ utils.isEmpty = (str) => {
   return (typeof str === 'string' || str instanceof String) && str.length === 0
 }
 
-utils.without = (arr, ...values) => arr.reduce((acc, val) => {
-  if (!values.includes(val)) {
-    acc.push(val)
-  }
+utils.without = (arr, ...values) =>
+  arr.reduce((acc, val) => {
+    if (!values.includes(val)) {
+      acc.push(val)
+    }
 
-  return acc
-}, [])
+    return acc
+  }, [])
 
 utils.getCurrentDirectoryBase = () => basename(process.cwd())
 
