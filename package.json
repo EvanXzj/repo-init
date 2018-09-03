@@ -1,6 +1,6 @@
 {
   "name": "repo-init",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "create a Git repository in the current folder and create a remote repository",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/EvanXzj/repo-init.git"
   },
-  "keywords": ["cli", "repo", "init", "repo-init", "ginit"],
+  "keywords": [
+    "cli",
+    "repo",
+    "init",
+    "repo-init",
+    "ginit"
+  ],
   "author": "chuidylan <chuidylan@gmail.com>",
   "license": "MIT",
   "bugs": {
