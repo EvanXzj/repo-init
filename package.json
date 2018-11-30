@@ -1,6 +1,6 @@
 {
   "name": "repo-init",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "create a Git repository in the current folder and create a remote repository",
   "main": "index.js",
   "scripts": {
