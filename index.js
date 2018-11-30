@@ -4,7 +4,7 @@ const chalk = require('chalk')
 const clear = require('clear')
 const figlet = require('figlet')
 
-const {checkDirctroyExists} = require('./utils')
+const {checkDirctroyExists} = require('./lib/utils')
 const {createReomteRepository, createGitIgnore, setupRepository} = require('./lib/repo')
 const {
   getStoredGithubToken,
